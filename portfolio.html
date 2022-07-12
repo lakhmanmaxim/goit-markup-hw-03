@@ -20,48 +20,52 @@
 
     <!-- Шапка сайта -->
 
-    <Header>
-        <a class="logo" href="./index.html">Web<span class="header-logo-studio">Studio</span></a>
+    <Header class="header-border">
+        <div class="container header-box">
+            <a class="logo" href="./index.html">Web<span class="header-logo-studio">Studio</span></a>
 
-        <!-- Навигация -->
+            <!-- Навигация -->
 
-        <nav>
-            <ul class="nav-list">
-                <li><a class="navigate" href="./index.html">Студия</a></li>
-                <li><a class="navigate current" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="navigate" href="./contacts.html">Контакты</a></li>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="navigate" href="./index.html">Студия</a></li>
+                    <li class="nav-list-item"><a class="navigate current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-list-item"><a class="navigate" href="./contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="header-list">
+                <li class="header-list-item"><a class="header-mail"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-list-item"><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="header-list">
-            <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </Header>
 
     <!-- Основной контент -->
 
     <main>
 
-        <section>
+        <section class="section">
 
             <!-- Кнопки -->
 
             <!-- скрытый заголовок -->
             <h1 class="portfolio-title">Портфолио наших работ</h1>
 
-            <ul class="portfolio-filter">
+            <ul class="portfolio-filter container">
                 <!-- через второй класс задавал кнопкам нужные размеры с макета. Ширина всех кнопок разная. -->
-                <li><button class="filter-button" type="button">Все</button></li>
-                <li><button class="filter-button" type="button">Веб-сайты</button></li>
-                <li><button class="filter-button" type="button">Приложения</button></li>
-                <li><button class="filter-button" type="button">Дизайн</button></li>
-                <li><button class="filter-button" type="button">Маркетинг</button></li>
+                <li class="portfolio-filter-item"><button class="filter-button" type="button">Все</button></li>
+                <li class="portfolio-filter-item"><button class="filter-button" type="button">Веб-сайты</button></li>
+                <li class="portfolio-filter-item"><button class="filter-button" type="button">Приложения</button></li>
+                <li class="portfolio-filter-item"><button class="filter-button" type="button">Дизайн</button></li>
+                <li class="portfolio-filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
             </ul>
 
             <!-- Карточки -->
 
-            <ul class="portfolio-cards">
-                <li>
+            <ul class="portfolio-cards container">
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""> <img src="./images/portfolio/technokryak.jpg"
                             alt="Ноутбук с примером сайта" width="370" height="294">
                         <h2 class="card-title">Технокряк</h2>
@@ -69,7 +73,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/basketballists.jpg"
                             alt="Баскетболисты в прыжке. Идёт борьба за мяч" width="370" height="294">
                         <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
@@ -77,7 +81,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/seafood.jpg"
                             alt="Крупная рыба и название ресторана &#34;Seafood&#34;" width="370" height="294">
                         <h2 class="card-title">Ресторан Seafood</h2>
@@ -85,7 +89,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/headphones.jpg" alt="Наушники"
                             width="370" height="294">
                         <h2 class="card-title">Проект Prime</h2>
@@ -93,7 +97,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/boxes.jpg"
                             alt="Две картонные коробки - белая и коричневая" width="370" height="294">
                         <h2 class="card-title">Проект Boxes</h2>
@@ -101,7 +105,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/monitor.jpg"
                             alt="Компьютерный монитор с примером сайта" width="370" height="294">
                         <h2 class="card-title">Inspiration has no Borders</h2>
@@ -109,7 +113,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/book.jpg"
                             alt="Открытая книга с картинками и текстом" width="370" height="294">
                         <h2 class="card-title">Издание Limited Edition</h2>
@@ -117,7 +121,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/label.jpg"
                             alt="Бирка с названием бренда &#34;LAB&#34;" width="370" height="294">
                         <h2 class="card-title">Проект LAB</h2>
@@ -125,7 +129,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-cards-item">
                     <a class="portfolio-card" href=""><img src="./images/portfolio/notebookwithapp.jpg"
                             alt="Ноутбук. На экране пример приложения" width="370" height="294">
                         <h2 class="card-title">Growing Business</h2>
@@ -140,17 +144,23 @@
     <!-- Футер -->
 
     <footer class="footer">
-        <a class="logo" href="./index.html">Web<span class="footer-logo-studio">Studio</span></a>
-        <!-- <img src="./images/Footer-bg.jpg" alt="Задний фон футера" width="1600"> -->
-        <address>
-            <ul class="footer-list">
-                <li><a class="location" href="https://goo.gl/maps/4drAFhD1oQaZ1hP96" target="_blank">г. Киев, пр-т Леси
-                        Украинки, 26</a>
-                </li>
-                <li><a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="footer-logo" href="./index.html">Web<span class="footer-logo-studio">Studio</span></a>
+            <!-- <img src="./images/Footer-bg.jpg" alt="Задний фон футера" width="1600"> -->
+            <address>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="location" href="https://goo.gl/maps/4drAFhD1oQaZ1hP96"
+                            target="_blank">г. Киев, пр-т
+                            Леси
+                            Украинки, 26</a>
+                    </li>
+                    <li class="footer-list-item"><a class="mail-footer"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer-list-item"><a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
