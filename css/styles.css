@@ -223,7 +223,7 @@ background-color: var(--hero-button-hover-color);
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .features-title-hidden {
