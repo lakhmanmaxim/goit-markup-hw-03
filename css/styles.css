@@ -238,7 +238,7 @@ background-color: var(--hero-button-hover-color);
     margin-top: 0;
     margin-bottom: 0;
     /* text-align: center; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 
@@ -333,7 +333,7 @@ background-color: var(--hero-button-hover-color);
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     text-align: center;
 
@@ -342,6 +342,14 @@ background-color: var(--hero-button-hover-color);
 .team-list-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item + .team-list-item {
+    margin-left: 30px;
+}
+
+.team-list-item:first-child {
+    margin-left: 0;
 }
 
 .team-foto {
@@ -354,6 +362,7 @@ background-color: var(--hero-button-hover-color);
     line-height: 1.18;
     /* text-align: center; */
     letter-spacing: 0.03em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     margin-top: 30px;
     margin-bottom: 10px;
@@ -365,6 +374,7 @@ background-color: var(--hero-button-hover-color);
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--second-text-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     margin-top: 0;
     margin-bottom: 30px;
@@ -485,6 +495,9 @@ background-color: var(--hero-button-hover-color);
     list-style: none;
     display: flex;
     justify-content: center;
+
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 /* Кнопки портфолио */
@@ -546,6 +559,9 @@ width: 130px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-cards-item {
@@ -561,6 +577,10 @@ width: 130px;
     margin-right: 0;
 }
 
+.portfolio-cards-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
 .portfolio-card {
     display: block;
     text-decoration: none;
@@ -573,7 +593,7 @@ width: 130px;
     letter-spacing: 0.06em;
     color: var(--main-text-color);
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 4px;
     margin-left: 24px;
 }
 
@@ -582,8 +602,8 @@ width: 130px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-    margin-top: 4px;
-    margin-bottom: 20;
+    margin-top: 0;
+    margin-bottom: 20px;
     margin-left: 24px;
 }
 
@@ -607,4 +627,12 @@ width: 130px;
     margin-left: auto;
     margin-right: auto;
     text-transform: uppercase;
+}
+
+
+/* ========MAP======== */
+
+.map {
+    justify-content: center;
+    border: 1px solid black;
 }
