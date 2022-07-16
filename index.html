@@ -26,7 +26,7 @@
 
             <!-- Навигация -->
 
-            <nav>
+            <nav class="navigation">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="navigate current" href="./index.html">Студия</a></li>
                     <li class="nav-list-item"><a class="navigate" href="./portfolio.html">Портфолио</a></li>
@@ -47,16 +47,17 @@
         <!--Блок хиро-->
         <section class="hero">
             <!-- <img src="./images/Bg.jpg" alt="Задний фон блока хиро" width=1600> -->
-            <!-- <div class="container"> -->
-            <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-            <button class="hero-button" type="button">Заказать услугу</button>
-            <!-- </div> -->
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+                <button class="hero-button" type="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!--Особенности-->
 
-        <div class="container">
-            <section class="section">
+
+        <section class="section">
+            <div class="container">
                 <h2 class="features-title-hidden">Особенности</h2>
                 <!--Заголовок будет невидимый-->
                 <ul class="features-list">
@@ -83,15 +84,15 @@
                         </p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
         <!-- Чем мы занимаемся -->
 
-        <section>
-            <h2 class="worksheet-title">Чем мы занимаемся</h2>
+        <section class="section worksheet-section">
             <div class="container">
-                <ul class="worksheet-list section">
+                <h2 class="worksheet-title">Чем мы занимаемся</h2>
+                <ul class="worksheet-list">
                     <li class="worksheet-list-item"><img src="./images/ipadkeyboard.jpg" alt="Работает за клавиатурой"
                             width="370"></li>
                     <li class="worksheet-list-item"><img src="./images/notebooksmartphone.jpg"
@@ -111,24 +112,32 @@
                 <ul class="team-list">
                     <li class="team-list-item">
                         <img src="./images/igor-demianenko.jpg" alt="фото Игорь Демьяненко" width="270">
-                        <h3 class="team-names-title">Игорь Демьяненко</h3>
-                        <p class="team-text">Product Designer</p>
+                        <div class="team-title-text-container">
+                            <h3 class="team-names-title">Игорь Демьяненко</h3>
+                            <p class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img class="team-foto" src="./images/olga-repina.jpg" alt="фото Ольга Репина" width="270">
-                        <h3 class="team-names-title">Ольга Репина</h3>
-                        <p class="team-text">Frontend Developer</p>
+                        <div class="team-title-text-container">
+                            <h3 class="team-names-title">Ольга Репина</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img class="team-foto" src="./images/nikolay-tarasov.jpg" alt="фото Николай Тарасов"
                             width="270">
-                        <h3 class="team-names-title">Николай Тарасов</h3>
-                        <p class="team-text">Marketing</p>
+                        <div class="team-title-text-container">
+                            <h3 class="team-names-title">Николай Тарасов</h3>
+                            <p class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img class="team-foto" src="./images/mihail-ermakov.jpg" alt="фото Михаил Ермаков" width="270">
-                        <h3 class="team-names-title">Михаил Ермаков</h3>
-                        <p class="team-text">UI Designer</p>
+                        <div class="team-title-text-container">
+                            <h3 class="team-names-title">Михаил Ермаков</h3>
+                            <p class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
