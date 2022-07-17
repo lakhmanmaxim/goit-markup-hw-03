@@ -260,8 +260,6 @@ background-color: var(--hero-button-hover-color);
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    /* text-align: center; */
-    /* justify-content: space-between; */
 }
 
 
@@ -298,9 +296,6 @@ background-color: var(--hero-button-hover-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-    text-align: justify;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* Чем мы занимаемся */
@@ -308,7 +303,6 @@ background-color: var(--hero-button-hover-color);
 .worksheet-title {
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
     letter-spacing: 0.03em;
 
     margin-top: 0;
@@ -342,7 +336,6 @@ background-color: var(--hero-button-hover-color);
 .team-title {
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
     letter-spacing: 0.03em;
 
     margin-top: 0;
@@ -357,10 +350,8 @@ background-color: var(--hero-button-hover-color);
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    /* justify-content: space-between; */
-
+    
     text-align: center;
-
 }
 
 .team-list-item {
@@ -386,7 +377,6 @@ background-color: var(--hero-button-hover-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -397,13 +387,11 @@ background-color: var(--hero-button-hover-color);
 .team-text {
     font-size: 16px;
     line-height: 1.18;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     margin-top: 0;
-    /* margin-bottom: 30px; */
 }
 
 /* Footer */
@@ -445,7 +433,7 @@ background-color: var(--hero-button-hover-color);
 }
 
 .footer-list-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .location {
@@ -536,7 +524,6 @@ background-color: var(--hero-button-hover-color);
 
 /* Кнопки портфолио */
 .filter-button {
-    /* min-width: 73px; */
     border: 0px;
     background-color: var(--bg-color-filter-buttons);
     border-radius: 4px;
@@ -544,7 +531,6 @@ background-color: var(--hero-button-hover-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     cursor: pointer;
